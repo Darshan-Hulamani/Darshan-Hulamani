@@ -44,6 +44,31 @@ code {
   color: transparent;
 }
 
+#hero .hero-portrait-wrap {
+  width: clamp(260px, 26vw, 340px) !important;
+}
+
+@media (orientation: portrait) {
+  #hero {
+    min-height: 100svh;
+  }
+
+  #hero .hero-portrait-wrap {
+    position: relative !important;
+    top: auto !important;
+    bottom: auto !important;
+    margin-top: 1.25rem !important;
+    width: min(58vw, 260px) !important;
+    transform: translateX(-50%) !important;
+  }
+
+  #hero .hero-bottom-bar {
+    margin-top: 1rem !important;
+    align-items: flex-end;
+    padding-bottom: 1.25rem !important;
+  }
+}
+
 /* Accent gradient (developer/tech tweak: cyan -> blue -> violet) */
 .accent-gradient {
   background: linear-gradient(123deg, #062B4A 4%, #00C2FF 36%, #4F46E5 70%, #7C3AED 100%);

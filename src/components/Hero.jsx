@@ -78,35 +78,26 @@ export default function Hero() {
     <section
       id="hero"
       data-testid="hero-section"
-      className="relative h-screen flex flex-col"
+      className="relative min-h-screen flex flex-col"
       style={{ overflowX: "clip" }}
     >
       <Navbar />
 
       {/* Heading */}
-      <div className="overflow-hidden px-6 md:px-10 pt-24 sm:pt-24 md:pt-20 relative z-20 pointer-events-none">
+      <div className="overflow-hidden px-6 md:px-10 pt-20 sm:pt-24 md:pt-20 relative z-20 pointer-events-none">
         <FadeIn
           as="h1"
           delay={0.15}
           y={40}
-          className="hero-heading font-black uppercase tracking-tight leading-none whitespace-nowrap w-full"
-          style={{ fontSize: "clamp(1.7rem, 9vw, 128px)" }}
+          className="hero-heading font-black uppercase tracking-tight leading-none whitespace-normal sm:whitespace-nowrap w-full"
+          style={{ fontSize: "clamp(2.6rem, 12vw, 128px)" }}
         >
           Hi, i&apos;m {PROFILE.firstName.toLowerCase()}
         </FadeIn>
       </div>
 
       {/* Portrait */}
-      <div className="absolute left-1/2 -translate-x-1/2 z-10 top-1/2 -translate-y-1/2 sm:top-auto sm:translate-y-0 sm:bottom-0 w-[230px] sm:w-[300px] md:w-[360px] lg:w-[410px]">
-        {/* Glow behind */}
-        <div
-          className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[150%] h-[135%] pointer-events-none"
-          style={{
-            background:
-              "radial-gradient(ellipse 42% 48% at 50% 47%, rgba(0,194,255,0.34), rgba(124,58,237,0.20) 50%, transparent 70%)",
-            filter: "blur(26px)",
-          }}
-        />
+      <div className="hero-portrait-wrap relative sm:absolute left-1/2 -translate-x-1/2 z-10 mt-5 sm:mt-0 sm:top-auto sm:bottom-0 w-[220px] sm:w-[300px] md:w-[360px] lg:w-[410px]">
         <Magnet padding={150} strength={3}>
           <FadeIn delay={0.5} y={30}>
             <div
@@ -124,7 +115,9 @@ export default function Hero() {
                 alt="3D abstract figure"
                 data-testid="hero-portrait"
                 className="block w-full h-auto select-none pointer-events-none"
-                style={{ filter: "brightness(1.3) saturate(1.4) contrast(1.06)" }}
+                style={{
+                  filter: "brightness(1.12) saturate(1.08) contrast(1.08)",
+                }}
               />
             </div>
           </FadeIn>
@@ -132,7 +125,7 @@ export default function Hero() {
       </div>
 
       {/* Bottom bar */}
-      <div className="mt-auto flex items-end justify-between px-6 md:px-10 pb-7 sm:pb-8 md:pb-10 relative z-20">
+      <div className="hero-bottom-bar mt-auto flex items-end justify-between px-6 md:px-10 pb-7 sm:pb-8 md:pb-10 relative z-20">
         <FadeIn
           as="p"
           delay={0.35}

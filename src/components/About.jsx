@@ -54,6 +54,20 @@ export default function About() {
           About me
         </FadeIn>
 
+        <FadeIn delay={0.1} y={30}>
+          <div className="relative">
+            <div className="absolute -inset-3 rounded-full accent-gradient blur-2xl opacity-40" />
+            <img
+              // src="/assets/images/profile_pic2.jpeg"
+              src="/assets/images/ME.png"
+              alt="Darshan Hulamani"
+              data-testid="about-photo"
+              loading="lazy"
+              className="relative w-40 h-40 sm:w-48 sm:h-48 md:w-56 md:h-56 rounded-full object-cover border-2 border-[#D7E2EA]/30 shadow-[0_0_40px_-8px_rgba(0,194,255,0.5)]"
+            />
+          </div>
+        </FadeIn>
+
         <AnimatedText
           text={ABOUT_TEXT}
           className="text-[#D7E2EA] font-medium text-center leading-relaxed max-w-[560px]"

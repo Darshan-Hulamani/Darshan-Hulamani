@@ -167,7 +167,7 @@ export default function Contact() {
         </div>
 
         <p className="text-center text-[#D7E2EA]/40 text-sm mt-20">
-          © {new Date().getFullYear()} {PROFILE.name}. Built with passion.
+          © {new Date().getFullYear()} {PROFILE.name}. Built with passion and love.
         </p>
       </div>
     </section>
