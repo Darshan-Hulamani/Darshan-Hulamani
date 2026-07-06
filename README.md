@@ -1,6 +1,7 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&animation=fadeIn" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,100:0072ff&height=200&section=header&animation=fadeIn" />
+
 
 <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=26&duration=3000&pause=1000&color=FE428E&center=true&vCenter=true&width=650&lines=Hi+there%2C+I'm+Darshan+Hulamani+%F0%9F%91%8B;MCA+Student+%40+BMS+Institute;Full-Stack+%2B+Computer+Vision+Developer;Building+things+that+scale+%F0%9F%9A%80" alt="Typing SVG" />
 
@@ -189,6 +190,6 @@ I build things end-to-end — from RDBMS-backed e-commerce platforms to computer
 
 ⭐️ *Thanks for stopping by!*
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=120&section=footer&animation=fadeIn" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,100:0072ffe&height=120&section=footer&animation=fadeIn" />
 
 </div>
