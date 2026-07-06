@@ -81,13 +81,13 @@ I build things end-to-end — from RDBMS-backed e-commerce platforms to computer
 <tr>
 <td width="50%">
 
-[![SafeRoute](https://github-readme-stats.vercel.app/api/pin/?username=Darshan-Hulamani&repo=Safe-Route&theme=radical&hide_border=true)](https://github.com/Darshan-Hulamani/Safe-Route)
+[![SafeRoute](https://github-readme-stats-fast.vercel.app/api/pin/?username=Darshan-Hulamani&repo=Safe-Route&theme=radical&hide_border=true)](https://github.com/Darshan-Hulamani/Safe-Route)
 🏆 *2nd Place, HackVerse 2.0 · built in a 12-hour hackathon*
 
 </td>
 <td width="50%">
 
-[![The Vyle](https://github-readme-stats.vercel.app/api/pin/?username=Darshan-Hulamani&repo=The_Vyle_E-Commerce_Website&theme=radical&hide_border=true)](https://github.com/Darshan-Hulamani/The_Vyle_E-Commerce_Website)
+[![The Vyle](https://github-readme-stats-fast.vercel.app/api/pin/?username=Darshan-Hulamani&repo=The_Vyle_E-Commerce_Website&theme=radical&hide_border=true)](https://github.com/Darshan-Hulamani/The_Vyle_E-Commerce_Website)
 📈 *500+ products, RDBMS inventory, +40% mobile conversion*
 
 </td>
@@ -95,30 +95,18 @@ I build things end-to-end — from RDBMS-backed e-commerce platforms to computer
 <tr>
 <td width="50%">
 
-[![Mano-Raaga](https://github-readme-stats.vercel.app/api/pin/?username=Darshan-Hulamani&repo=Mano-Raaga&theme=radical&hide_border=true)](https://github.com/Darshan-Hulamani/Mano-Raaga)
+[![Mano-Raaga](https://github-readme-stats-fast.vercel.app/api/pin/?username=Darshan-Hulamani&repo=Mano-Raaga&theme=radical&hide_border=true)](https://github.com/Darshan-Hulamani/Mano-Raaga)
 🎯 *92% emotion-classification accuracy on 13,000+ samples*
 
 </td>
 <td width="50%">
 
-[![property-discovery-agent](https://github-readme-stats.vercel.app/api/pin/?username=Darshan-Hulamani&repo=property-discovery-agent&theme=radical&hide_border=true)](https://github.com/Darshan-Hulamani/property-discovery-agent)
+[![property-discovery-agent](https://github-readme-stats-fast.vercel.app/api/pin/?username=Darshan-Hulamani&repo=property-discovery-agent&theme=radical&hide_border=true)](https://github.com/Darshan-Hulamani/property-discovery-agent)
 🤖 *AI-driven property discovery agent, live on Vercel*
 
 </td>
 </tr>
 </table>
-
-<details>
-<summary><b>📂 More Repositories</b></summary>
-<br/>
-
-- 🌤️ **[Weather-Forecast](https://github.com/Darshan-Hulamani/Weather-Forecast)** — live weather via OpenWeatherMap API · [demo](https://darshan-hulamani.github.io/Weather-Forecast/)
-- 🌐 **[Darshan-Hulamani-Portfolio](https://github.com/Darshan-Hulamani/Darshan-Hulamani-Portfolio)** — personal portfolio site
-- 👗 **[E-Commerce-Website-The-Vyle-Frontend](https://github.com/Darshan-Hulamani/E-Commerce-Website-The-Vyle-Frontend)** — responsive fashion storefront frontend
-
-</details>
-
-<br/>
 
 ## 🎓 Education
 
