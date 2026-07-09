@@ -21,6 +21,7 @@ export const DECOR = {
 export const PROFILE = {
   name: "Darshan Hulamani",
   firstName: "Darshan",
+  lastName: "Hulamani",
   role: "MCA Student & Developer",
   heroTagline:
     "a developer driven by crafting clean, intelligent and unforgettable digital experiences",
@@ -47,40 +48,6 @@ export const NAV_LINKS = [
 
 export const ABOUT_TEXT =
   "I'm an MCA student at BMSIT&M with a passion for technology and innovation. My journey spans programming, machine learning and web development. From building deep-learning projects like emotion recognition to crafting modern web experiences, I love turning ideas into solutions that stand out. Let's build something incredible together!";
-
-// export const SKILLS = [
-//   {
-//     no: "01",
-//     title: "Programming Languages",
-//     desc: "Building robust logic and data-driven applications across multiple languages.",
-//     items: [
-//       { name: "C", level: 85 },
-//       { name: "PHP", level: 90 },
-//       { name: "MySQL", level: 80 },
-//       { name: "Python", level: 75 },
-//     ],
-//   },
-//   {
-//     no: "02",
-//     title: "Web Technologies",
-//     desc: "Designing and developing responsive, modern and conversion-focused websites.",
-//     items: [
-//       { name: "HTML / CSS", level: 90 },
-//       { name: "JavaScript", level: 75 },
-//       { name: "WordPress", level: 80 },
-//     ],
-//   },
-//   {
-//     no: "03",
-//     title: "Tools & Machine Learning",
-//     desc: "Exploring computer vision and ML to bring intelligence into applications.",
-//     items: [
-//       { name: "VS Code", level: 85 },
-//       { name: "OpenCV", level: 50 },
-//       { name: "Machine Learning", level: 35 },
-//     ],
-//   },
-// ];
 
 export const SKILLS = [
   {
