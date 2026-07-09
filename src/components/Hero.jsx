@@ -92,7 +92,16 @@ export default function Hero() {
           className="hero-heading font-black uppercase tracking-tight leading-none whitespace-normal sm:whitespace-nowrap w-full"
           style={{ fontSize: "clamp(2.6rem, 12vw, 128px)" }}
         >
-          Hi, i&apos;m {PROFILE.firstName.toLowerCase()}
+          {PROFILE.firstName.toLowerCase()} {PROFILE.lastName.toLowerCase()}
+        </FadeIn>
+        <FadeIn
+          as="h4"
+          delay={0.15}
+          y={40}
+          className="hero-heading font-black uppercase tracking-tight leading-none whitespace-normal sm:whitespace-nowrap w-full"
+          style={{ fontSize: "clamp(2.6rem, 12vw, 128px)" }}
+        >
+          MCA STUDENT
         </FadeIn>
       </div>
 
