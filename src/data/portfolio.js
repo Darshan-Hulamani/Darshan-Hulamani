@@ -29,7 +29,7 @@ export const PROFILE = {
   email: "darshanhulamani77@gmail.com",
   phone: "+91 88671 09603",
   resume:
-    "https://drive.google.com/file/d/1lNnhhDd22VS8CLPmn9bI9HCfLmle1Udp/view?usp=sharing",
+    "https://drive.google.com/file/d/1iJmmd4R_hybUOIVeC3ufognk6UasdvRf/view?usp=sharing",
   socials: {
     github: "https://github.com/Darshan-Hulamani",
     linkedin: "https://www.linkedin.com/in/darshan-hulamani",
@@ -76,6 +76,24 @@ export const SKILLS = [
 export const PROJECTS = [
   {
     no: "01",
+    name: "Phantom Share",
+    category: "Secure Serverless File & Text Sharing Platform",
+    desc: "Built PhantomShare, a secure serverless platform for sharing files, text, and code through auto-expiring links. Used AWS Lambda, API Gateway, DynamoDB, S3, and CloudFront with password protection, burn-after-view, and secure pre-signed URLs.",
+    tech: ["React", "Vite", "AWS Lambda", "API Gateway", "DynamoDB", "Amazon S3", "CloudFront", "AWS SAM", "Node.js"],
+    source: "https://github.com/Darshan-Hulamani/Phantom-Share",
+    demo: "https://d2kre72e4hwpqr.cloudfront.net/",
+  },
+  {
+    no: "02",
+    name: "Property Discovery Agent",
+    category: "Agentic AI",
+    desc: "An agentic AI real estate assistant powered by Google Gemini that helps users discover, evaluate, and shortlist properties through natural-language conversations. Built with independent tools for property search, commute estimation, neighborhood profiling, and property comparison.",
+    tech: ["Python", "FastAPI", "React", "TypeScript", "Google Gemini API", "OSRM", "Nominatim"],
+    source: "https://github.com/Darshan-Hulamani/property-discovery-agent",
+    demo: "https://property-discovery-agent.vercel.app",
+  },
+  {
+    no: "03",
     name: "Safe Route",
     category: "Hackathon Winner",
     desc: "A community-powered safety navigation platform that helps users identify and avoid unsafe areas through real-time reporting, smart route planning, danger-zone alerts and one-tap SOS support.",
@@ -84,7 +102,7 @@ export const PROJECTS = [
     demo: "https://saferoute-gray-phi.vercel.app/",
   },
   {
-    no: "02",
+    no: "04",
     name: "Mano-Raaga",
     category: "Machine Learning",
     desc: "An AI-based emotion music player built with OpenCV and MySQL that detects user emotions via webcam and plays mood-based music. Independently developed the system, integrating facial emotion recognition with personalized music recommendations.",
@@ -93,7 +111,7 @@ export const PROJECTS = [
     demo: "https://drive.google.com/file/d/1sBowkJGrD3bUlDW9e7Dhl3LNAjpFuCCC/view?usp=sharing",
   },
   {
-    no: "03",
+    no: "05",
     name: "Threadie Tales",
     category: "Frontend",
     desc: "A responsive business website for a handcrafted embroidery brand, featuring product galleries, custom order requests, pricing details, and customer engagement tools.",
@@ -102,7 +120,7 @@ export const PROJECTS = [
     demo: "https://threadietales-design.github.io/threadie_tales/",
   },
   {
-    no: "04",
+    no: "06",
     name: "The Vyle — Storefront",
     category: "Frontend",
     desc: "A responsive e-commerce frontend featuring intuitive navigation, product listings and a seamless checkout interface, built from scratch with vanilla web technologies.",
@@ -112,7 +130,7 @@ export const PROJECTS = [
     demo: "https://the-vyle-fashion-brand.on.drv.tw/www.TheVyle!Brand.com/",
   },
   {
-    no: "05",
+    no: "07",
     name: "The Vyle — Full Store",
     category: "Full-Stack",
     desc: "A fully developed and hosted e-commerce website built with WordPress, designed in Elementor and powered by WooCommerce — fully manageable from the backend without coding.",
@@ -121,7 +139,7 @@ export const PROJECTS = [
     demo: "https://the-vyle-business.42web.io/",
   },
   {
-    no: "06",
+    no: "08",
     name: "Weather Forecast",
     category: "Web App",
     desc: "A weather app using the OpenWeatherMap API to show real-time data with unit conversion, handling front-end integration, API calls and feature logging.",
